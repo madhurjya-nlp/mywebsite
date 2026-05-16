@@ -1,0 +1,198 @@
+[
+  {
+    "slug": "goat-socials",
+    "title": "GOAT Socials / GoSo",
+    "year": "2025 — Present",
+    "role": "Co-Founder & Creative Lead",
+    "summary": "Creative direction and production for regional brands—modern, cinematic, and internet-aware.",
+    "tags": ["Agency", "Direction", "Social", "Assam"],
+    "body": [
+      "Co-founded a creative agency helping regional brands read as modern, cinematic, and internet-aware. Led social strategy, visual direction, shoot planning, editing, and day-to-day content execution.",
+      "Directed shoots, ran camera, and built repeatable content systems that keep strategy and personality in balance."
+    ],
+    "highlights": [
+      { "label": "Sugaree", "text": "Culturally rooted social campaigns: app awareness and sustained audience engagement." },
+      { "label": "Hushrokha Physio", "text": "Trust-led healthcare content with a clean visual identity and bilingual delivery." },
+      { "label": "Fresh Cuts Assam", "text": "Community-first visuals emphasizing freshness, farming, and local identity." }
+    ],
+    "media": [
+      { "kind": "placeholder", "label": "Campaign stills", "ratio": "16 / 9" },
+      { "kind": "placeholder", "label": "Behind the lens", "ratio": "4 / 5" }
+    ]
+  },
+  {
+    "slug": "tea-pod-talks",
+    "title": "Tea Pod / Tea Pot Talks",
+    "year": "2025 — Present",
+    "role": "Director & Creative Producer",
+    "summary": "A regional podcast identity built on culture, conversation, and modern Assamese storytelling.",
+    "tags": ["Podcast", "Direction", "Editing", "Culture"],
+    "body": [
+      "Directed podcast visuals, story flow, editing, and overall creative production.",
+      "Planned shoots, framing, pacing, and episode structure—shaping how the show looks and moves around culture, conversation, and modern Assamese storytelling."
+    ],
+    "highlights": [],
+    "media": [
+      { "kind": "placeholder", "label": "Set & lighting study", "ratio": "16 / 9" },
+      { "kind": "placeholder", "label": "Title motion / GFX", "ratio": "1 / 1" }
+    ]
+  },
+  {
+    "slug": "impact-career",
+    "title": "Impact Career Tutorials",
+    "year": "2023 — 2024",
+    "role": "Video Editor & Graphic Designer",
+    "summary": "Fifty-plus short-form pieces, end to end, for an education-focused channel.",
+    "tags": ["Education", "Short-form", "Design"],
+    "body": [
+      "Produced and edited 50+ short-form pieces from concept through shoot and final edit.",
+      "Handled graphic design alongside video work in a high-volume educational content setting."
+    ],
+    "highlights": [],
+    "media": [
+      { "kind": "placeholder", "label": "Short-form grid", "ratio": "9 / 16" },
+      { "kind": "placeholder", "label": "Thumbnail system", "ratio": "16 / 9" }
+    ]
+  },
+  {
+    "slug": "growthbees",
+    "title": "Growthbees Marketing Agency",
+    "year": "2023 — 2024",
+    "role": "Video Editor",
+    "summary": "Campaign and brand edits for agency clients, from rough cut to delivery.",
+    "tags": ["Agency", "Editing", "Campaigns"],
+    "body": [
+      "Edited video content across campaigns, brand content, and client deliverables for a marketing agency."
+    ],
+    "highlights": [],
+    "media": [
+      { "kind": "placeholder", "label": "Campaign cutdowns", "ratio": "16 / 9" }
+    ]
+  },
+  {
+    "slug": "drone-broadcast",
+    "title": "Freelance Drone Operator",
+    "year": "2019 — 2022",
+    "role": "Aerial Cinematography & Operations",
+    "summary": "Broadcast and tourism aerials across Northeast India.",
+    "tags": ["Drone", "Broadcast", "Tourism"],
+    "body": [
+      "Worked as a freelance drone pilot across tourism, broadcast, and regional media.",
+      "Clients included Doordarshan, Megh Tourism, Dima Hasao Tourism, and others—delivering aerial footage for broadcast and promotional use across Northeast India."
+    ],
+    "highlights": [],
+    "media": [
+      { "kind": "placeholder", "label": "Aerial plate", "ratio": "21 / 9" },
+      { "kind": "placeholder", "label": "Tourism reel frame", "ratio": "16 / 9" }
+    ]
+  },
+  {
+    "slug": "independent-youtube",
+    "title": "Independent — YouTube",
+    "year": "2017 — 2019",
+    "role": "Content Creator",
+    "summary": "Self-produced YouTube work: writing, shooting, editing, and publishing on a steady, independent cadence.",
+    "tags": ["Creator", "Writing", "Camera", "Edit"],
+    "body": [
+      "Built an early practice in self-produced video—every stage owned end to end.",
+      "Developed core skills in storytelling, camera, and editing through consistent, self-directed output."
+    ],
+    "highlights": [],
+    "media": [
+      { "kind": "placeholder", "label": "Early work still", "ratio": "16 / 9" }
+    ]
+  },
+  {
+    "slug": "ifp-short-films",
+    "title": "Short Films — IFP Contest",
+    "year": "2019 · 2021 · 2023",
+    "role": "Director / Cinematographer",
+    "summary": "Three IFP contest entries across 2019, 2021, and 2023—each conceived, directed, and shot independently.",
+    "tags": ["Film", "IFP", "Cinematography"],
+    "body": [
+      "Three entries in the IFP short film contest across three consecutive cycles.",
+      "Each film was independently conceived, directed, and shot."
+    ],
+    "highlights": [],
+    "media": [
+      { "kind": "placeholder", "label": "Key frame — Film A", "ratio": "2.39 / 1" },
+      { "kind": "placeholder", "label": "Key frame — Film B", "ratio": "2.39 / 1" }
+    ]
+  },
+  {
+    "slug": "paplu",
+    "title": "Paplu",
+    "year": "Graduation Film",
+    "role": "Director / Cinematographer — Documentary",
+    "summary": "Graduation documentary with full direction and cinematography from prep through final cut.",
+    "tags": ["Documentary", "Film", "Direction"],
+    "body": [
+      "Graduation documentary with full directorial and cinematography responsibility from pre-production through final cut."
+    ],
+    "highlights": [],
+    "media": [
+      { "kind": "placeholder", "label": "Documentary frame", "ratio": "16 / 9" }
+    ]
+  },
+  {
+    "slug": "youthzkorner",
+    "title": "Youthzkorner Productions",
+    "year": "2018 — Ongoing",
+    "role": "Cinematographer & Creative Collaborator",
+    "summary": "Long-running collaboration across cinematography and creative direction.",
+    "tags": ["Collaboration", "Cinematography"],
+    "body": [
+      "Ongoing partnership spanning cinematography and creative direction across multiple projects."
+    ],
+    "highlights": [],
+    "media": [
+      { "kind": "placeholder", "label": "Collaboration still", "ratio": "16 / 9" }
+    ]
+  },
+  {
+    "slug": "physio-conclave-2026",
+    "title": "International Physiotherapy Conclave 2026",
+    "year": "2026",
+    "role": "Logo Design",
+    "summary": "Official logo for the International Physiotherapy Conclave 2026.",
+    "tags": ["Branding", "Logo", "Healthcare"],
+    "body": [
+      "Designed the official logo for the International Physiotherapy Conclave 2026."
+    ],
+    "highlights": [],
+    "media": [
+      { "kind": "placeholder", "label": "Logo lockup", "ratio": "1 / 1" },
+      { "kind": "placeholder", "label": "Brand applications", "ratio": "16 / 9" }
+    ]
+  },
+  {
+    "slug": "vinyl-sessions-neum",
+    "title": "Vinyl Sessions × NEUM",
+    "year": "Event",
+    "role": "Visual Identity & Production",
+    "summary": "Curated pop-up: visual identity and hands-on event production.",
+    "tags": ["Events", "Identity", "Music"],
+    "body": [
+      "Designed and produced a curated pop-up music event—visual identity, logistics, and on-site execution."
+    ],
+    "highlights": [],
+    "media": [
+      { "kind": "placeholder", "label": "Event key art", "ratio": "4 / 5" }
+    ]
+  },
+  {
+    "slug": "origii-apparels",
+    "title": "Origii Apparels",
+    "year": "Pop-up",
+    "role": "Spatial & Brand Presence",
+    "summary": "Pop-up spatial design and management for a local clothing startup.",
+    "tags": ["Retail", "Spatial", "Startup"],
+    "body": [
+      "Pop-up event design and management for a local clothing startup—brand presence and spatial layout."
+    ],
+    "highlights": [],
+    "media": [
+      { "kind": "placeholder", "label": "Pop-up spatial", "ratio": "16 / 9" }
+    ]
+  }
+]

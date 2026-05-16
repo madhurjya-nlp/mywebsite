@@ -961,6 +961,170 @@ a:hover {
   color: var(--muted);
 }
 
+/* ── Reach Me Button ── */
+
+.reach-me-btn {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 5rem;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.5rem 1rem 0.5rem 0.8rem;
+  border-radius: 999px;
+  border: 1px solid rgba(196, 181, 253, 0.25);
+  background: rgba(10, 10, 10, 0.85);
+  backdrop-filter: blur(12px);
+  color: var(--accent);
+  font-family: inherit;
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.35);
+}
+
+.reach-me-btn:hover {
+  background: rgba(196, 181, 253, 0.12);
+  border-color: rgba(196, 181, 253, 0.5);
+  transform: translateY(-1px);
+  text-decoration: none;
+}
+
+/* ── Film Crew Characters ── */
+
+.film-crew {
+  position: fixed;
+  inset: 0;
+  z-index: 5;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.crew-sprite {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 36px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  will-change: transform;
+  transition: none;
+}
+
+.crew-sprite__body {
+  position: relative;
+  width: 16px;
+  height: 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.crew-sprite__head {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: 1.5px solid rgba(196, 181, 253, 0.5);
+  background: rgba(196, 181, 253, 0.06);
+  flex-shrink: 0;
+}
+
+.crew-sprite__torso {
+  width: 3px;
+  height: 10px;
+  background: rgba(196, 181, 253, 0.3);
+  border-radius: 1px;
+  margin-top: 2px;
+  flex-shrink: 0;
+}
+
+.crew-sprite__legs {
+  display: flex;
+  gap: 2px;
+  margin-top: 2px;
+}
+
+.crew-sprite__leg {
+  width: 2px;
+  height: 6px;
+  background: rgba(196, 181, 253, 0.2);
+  border-radius: 1px;
+  animation: crew-walk 0.6s ease-in-out infinite alternate;
+}
+
+.crew-sprite__leg--r {
+  animation-delay: -0.3s;
+}
+
+@keyframes crew-walk {
+  from { transform: translateY(0); }
+  to { transform: translateY(-2px); }
+}
+
+.crew-sprite__arm {
+  position: absolute;
+  top: 10px;
+  width: 2px;
+  height: 7px;
+  background: rgba(196, 181, 253, 0.15);
+  border-radius: 1px;
+}
+
+.crew-sprite__arm--l { left: -4px; transform: rotate(25deg); }
+.crew-sprite__arm--r { right: -4px; transform: rotate(-20deg); }
+
+.crew-sprite__prop {
+  position: absolute;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.crew-sprite--camera .crew-sprite__prop {
+  top: -8px;
+  right: -12px;
+}
+
+.crew-sprite--boom .crew-sprite__prop {
+  top: -6px;
+  right: -14px;
+}
+
+.crew-sprite--light .crew-sprite__prop {
+  top: -10px;
+  right: -10px;
+}
+
+.crew-prop {
+  filter: drop-shadow(0 0 4px rgba(196, 181, 253, 0.15));
+  animation: crew-prop-float 2s ease-in-out infinite alternate;
+}
+
+@keyframes crew-prop-float {
+  from { transform: translateY(0) rotate(-2deg); }
+  to { transform: translateY(-2px) rotate(2deg); }
+}
+
+.crew-sprite__glow {
+  position: absolute;
+  inset: -8px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(196, 181, 253, 0.04), transparent 70%);
+  animation: crew-glow 3s ease-in-out infinite alternate;
+  pointer-events: none;
+}
+
+@keyframes crew-glow {
+  from { opacity: 0.3; transform: scale(0.85); }
+  to { opacity: 0.7; transform: scale(1.1); }
+}
+
 /* ── Film Chat ── */
 
 .film-chat-toggle {
@@ -1133,6 +1297,31 @@ a:hover {
   transform: scale(1.05);
 }
 
+.film-chat__suggestions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  padding: 0 0.75rem 0.5rem;
+}
+
+.film-chat__chip {
+  font-family: inherit;
+  font-size: 0.7rem;
+  padding: 0.25rem 0.55rem;
+  border-radius: 999px;
+  border: 1px solid rgba(196, 181, 253, 0.2);
+  background: rgba(196, 181, 253, 0.06);
+  color: var(--accent);
+  cursor: pointer;
+  transition: background 0.2s ease, border-color 0.2s ease;
+  white-space: nowrap;
+}
+
+.film-chat__chip:hover {
+  background: rgba(196, 181, 253, 0.14);
+  border-color: rgba(196, 181, 253, 0.35);
+}
+
 @media (prefers-reduced-motion: reduce) {
   .hero h1 {
     animation: none;
@@ -1191,6 +1380,19 @@ a:hover {
   }
 
   .film-chat {
+    transform: none;
+  }
+
+  .crew-sprite,
+  .film-crew {
+    display: none !important;
+  }
+
+  .reach-me-btn {
+    transition: none;
+  }
+
+  .reach-me-btn:hover {
     transform: none;
   }
 }

@@ -2,6 +2,7 @@ import { useCallback, useState } from "react";
 import { AmbientBackground } from "./components/AmbientBackground";
 import { BitmapExpressions } from "./components/BitmapExpressions";
 import { FilmChat } from "./components/FilmChat";
+import { FilmCrew } from "./components/FilmCrew";
 import { NavBar } from "./components/NavBar";
 import { Scene3D } from "./components/Scene3D";
 import { SplashScreen } from "./components/SplashScreen";
@@ -63,6 +64,20 @@ export default function App() {
         <p>© {new Date().getFullYear()} Madhurjya Saikia</p>
       </footer>
 
+      <FilmCrew />
+      <a
+        className="reach-me-btn"
+        href="mailto:madhurjyasaikia@example.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Reach me at"
+      >
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+          <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+          <polyline points="22,6 12,13 2,6" />
+        </svg>
+        <span>Reach me</span>
+      </a>
       <FilmChat />
     </div>
   );

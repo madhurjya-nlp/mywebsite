@@ -1,6 +1,7 @@
 import { useCallback, useState } from "react";
 import { AmbientBackground } from "./components/AmbientBackground";
 import { BitmapExpressions } from "./components/BitmapExpressions";
+import { FilmChat } from "./components/FilmChat";
 import { NavBar } from "./components/NavBar";
 import { Scene3D } from "./components/Scene3D";
 import { SplashScreen } from "./components/SplashScreen";
@@ -61,6 +62,8 @@ export default function App() {
       <footer className="site-footer">
         <p>© {new Date().getFullYear()} Madhurjya Saikia</p>
       </footer>
+
+      <FilmChat />
     </div>
   );
 }

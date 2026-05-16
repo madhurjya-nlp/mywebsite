@@ -40,6 +40,7 @@ export function BitmapExpressions() {
             fontSize: "clamp(0.8rem, 1.2vw, 1.1rem)",
             color: "#c4b5fd",
             userSelect: "none",
+            fontFamily: "'Segoe UI Symbol', 'Apple Symbols', 'Arial Unicode MS', sans-serif",
           }}
           aria-hidden
         >
